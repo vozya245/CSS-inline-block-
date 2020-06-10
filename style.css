@@ -1,0 +1,53 @@
+body{
+background: sandybrown;
+}
+.hed{
+	text-align: center;
+	font-size: 24px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper img {width: 200px; height: 250px;}
+.d {font-size: 16px; font-family: 'Indie Flower', cursive;}
+.d:hover img  {
+	border: 5px solid #078a32;}
+.position{
+	margin-bottom:30px ;
+}
+@media (min-width: 480px)
+{ .wrapper {
+	background: rgb(207, 233, 63);
+	width: 480px;
+		   }
+  .d {
+	  width: 300px;
+	  display: inline-block;
+	 }
+}
+
+@media (min-width: 1200px)
+{ .wrapper {
+	background: rgb(207, 233, 63);
+	width: 1200px;
+		   }
+  .d {
+	  width: 300px;
+	  display: inline-block;
+     }
+}
+@media (min-width: 900px)
+{ .wrapper {
+	background: rgb(207, 233, 63);
+	width: 1200px;
+		   }
+  .d {
+	  width: 300px;
+	  display: inline-block;
+     }
+.wrapper{
+		width: 900px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+
